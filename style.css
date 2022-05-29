@@ -1,0 +1,14 @@
+.location-heading {
+    border-left-style: solid;
+    border-left-color: darkorange;
+    padding-left: 6px;
+}
+
+.about-section {
+    display: flex;
+    padding-top: 30px;
+}
+
+.about-section p {
+    padding-left: 30px;
+}
