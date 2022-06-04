@@ -40,6 +40,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./components/contact.html">Contact</a>
                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./components/gallery.html">Gallery</a>
+                        </li>
                     </ul>
                 </form>
             </div>
@@ -51,41 +54,17 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/agri1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
+              <div class="carousel-item active" id="mainimage">
+              
+                <img src="./images/agri1.jpg" class="w-100" alt="...">
+                <h3 class="heading" style="color:white ;">It'S ALL  ABOUT AGRICULTURE</h3>
+                <h2 class="quotation" style="color: white;"> Innovation and passion</h2>
               </div>
-              <div class="carousel-item">
-                <img src="./images/agri2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./images/agri3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+             
     </section>
 
     <section class="about-section">
@@ -93,12 +72,48 @@
         <p>Create new Opportunities for employment and inclusive economic growth through</p>
     </section>
 
-    <section class="contact-section d-flex p-5">
+      <section>
+       
+         <div class="slideshow-container">
+
+      <div class="mySlides">
+        <img src="/images/children.jpg" alt=""> <br>
+        <p class="author">- poonam bhandary</p>
+        <q>She is CEO of this organization, i can say only one sentance about her that she is the best</q>
+        
+      </div>
+      
+      <div class="mySlides">
+        <img src="/images/children.jpg" alt=""> <br>
+        <p class="author">- poonam bhandary</p>
+        <q>She is CEO of this organization, i can say only one sentance about her that she is the best</q>
+      </div>
+      
+      <div class="mySlides">
+        <img src="/images/children.jpg" alt=""> <br>
+        <p class="author">- Thomas A. Edison</p>
+        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      </section>
+   
+    <section class="contact-section d-flex p-5 bg-light">
         <div class="map-location">
-            <iframe class="px-5 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113996.46425365664!2d83.3338707165128!3d26.763851215090256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0c332489%3A0x1ff3f97fdcc6bfa2!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1653803882156!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="px-5 h-120" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14136.440857487016!2d85.3197132726667!3d27.65206158196245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1763afe90a91%3A0x24e78f10fcea8163!2sSatdobato%2C%20Lalitpur%2044700!5e0!3m2!1sen!2snp!4v1653835454074!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="contact">
+        <div class="contact p-5">
             <h4 class="location-heading">LOCATION</h4>
                 <h5>ADDRESS<h5>
                 <p>Satdobato</p>
@@ -148,6 +163,34 @@
             </div>
           </footer>
     </section>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
 
 </body>
 

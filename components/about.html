@@ -13,13 +13,18 @@
         .content {
             display: flex;
         }
+        .about{
+            border-left-style: solid;
+    border-left-color: darkorange;
+    padding-left: 6px;
+        }
     </style>
     <title>About</title>
 </head>
 <body>
     <section class="header-section-about">
 
-        <nav class="navbar navbar-expand-lg bg-light d-flex">
+        <nav class="navbar navbar-expand-lg bg-light d-flex p-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">SHAMRIDHI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -41,6 +46,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
+                          </li>
                     </ul>
                 </form>
             </div>
@@ -49,16 +57,28 @@
     </section>
 
     <section class="content">
-        <div class="image-div d-flex">
-                <div class="img p-5">
-                    <img class="w-25" src="../images/agri1.jpg" alt="img1">
-                <img class="w-25" src="../images/agri2.jpg" alt="img2">
-                <img class="w-25" src="../images/agri3.jpg" alt="img3">
+        <div class="image-div d-inline-flex">
+                <div class="img d-flex">
+                    <div class="p-0 m-0">
+                        <img class="w-50" src="../images/agri1.jpg" alt="img1">
+                        <img class="w-50" src="../images/agri2.jpg" alt="img2">
+                    </div>
+                    <div class="p-0 m-0">
+                        <img class="w-100" src="../images/agri3.jpg" alt="img3">
+                    </div>
                 </div>
 
-        <div class="text-div p-5">
-            <h4>About Us</h4>
-            <p>about this organization</p>
+        <div class="text-div p-5" >
+            <h4 class="about">About Us</h4>
+            <p>Samriddhi is a research based agriculture company dedicated to transfer to typical Nepalese low return subsistence agriculture 
+               into thriving agro enterprises through the promotion of high value
+                crops. Nepal's characteristic micro-climates in the hills and mountains are highly favorable for the production of high quality berries,nuts and fruits.
+                Promotion of the high value crops that have comparative advantages for Nepal wil create new business opportunities in various sectors including production,processing
+                and marketing. Samriddhinis integrating demand-driven research,extension and agriculture enterpreneurship in a single functional system to expedite the time lag between innovatios and income generation.
+                Our execution model involves functional collaboration among various agencies including national and international Universities,private companies , farmer's cooperatives and government agencies.
+                 We promote private-public-community partnership to deliver research based information and services to our clients.
+                 We aim to offer one stop solutions to our clients.
+            </p>
 
         </div>
     </section>
